@@ -71,3 +71,48 @@
 .icons li a img {
   width: 30px;
 }
+
+.work {
+  padding: 50px;
+  padding-left: 110px;
+  padding-right: 180px;
+}
+
+.work .work-title {
+  padding-left: 60px;
+}
+
+.work .jobs {
+  padding-left: 80px;
+  list-style-type: none;
+}
+
+.job-title-line {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 3.5vmin;
+}
+
+.job-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-image-role {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.work img {
+  width: 150px;
+  height: auto;
+}
