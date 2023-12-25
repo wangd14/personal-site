@@ -45,11 +45,11 @@
 }
 
 .bodyshot {
-  width: 50vmin;
+  width: 40vmin;
   height: fit-content;
-  margin: 30px;
-  margin-top: 80px;
+  margin: 80px;
   box-shadow: 30px 16px #1e6fd9;
+  flex: 1;
 }
 
 .icons {
