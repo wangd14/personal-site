@@ -76,6 +76,7 @@
   padding: 50px;
   padding-left: 110px;
   padding-right: 180px;
+  flex: 1;
 }
 
 .work .work-title {
@@ -113,6 +114,16 @@
 }
 
 .work img {
-  width: 150px;
+  width: 100px;
   height: auto;
+}
+
+.projects-wrapper {
+  padding: 50px;
+  padding-left: 110px;
+  padding-right: 180px;
+}
+
+.projects-title {
+  padding-left: 60px;
 }
