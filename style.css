@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.head {
+  display: flex;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #dee5ef;
+  align-content: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.intro .name {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 80px;
+  font-size: 10vmin;
+}
+
+.intro .name strong {
+  color: #1e6fd9;
+}
+
+.intro .title {
+  font-weight: 400;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 3.5vmin;
+}
+
+.intro .resume {
+  padding-top: 10px;
+  font-weight: 400;
+  padding-left: 80px;
+  font-size: 2.5vmin;
+}
+
+.bodyshot {
+  display: flex;
+  margin: 80px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyshot img {
+  width: 50vmin;
+  height: auto;
+  box-shadow: 30px 16px #1e6fd9;
+}
+
+.icons {
+  background-color: aliceblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  display: flex;
+  gap: 8px;
+  list-style-type: none;
+}
+
+.icons li a img {
+  width: 6vmin;
+}
+
+.work {
+  padding: 50px;
+  padding-left: 110px;
+  padding-right: 180px;
+  flex: 1;
+}
+
+.work .work-title {
+  padding-left: 60px;
+}
+
+.work .jobs {
+  padding-left: 80px;
+  list-style-type: none;
+}
+
+.job-title-line {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 3.5vmin;
+}
+
+.job-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-image-role {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.work img {
+  width: 100px;
+  height: auto;
+}
+
+.projects-wrapper {
+  padding: 50px;
+  padding-left: 110px;
+  padding-right: 180px;
+}
+
+.projects-title {
+  padding-left: 60px;
+}
+
+.projects .project {
+  padding-left: 80px;
+  list-style-type: none;
+}
+
+.project-title-line {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 3.5vmin;
+}
+
+.project-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image-role {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.project img {
+  width: 100px;
+  height: auto;
+}
+
+.contact {
+  background-color: #dee5ef;
+  padding: 50px;
+  padding-left: 100px;
+}
