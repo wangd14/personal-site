@@ -162,3 +162,9 @@
   width: 100px;
   height: auto;
 }
+
+.contact {
+  background-color: #dee5ef;
+  padding: 50px;
+  padding-left: 100px;
+}
