@@ -1,1 +1,1 @@
-https://wangd14.github.io/personal-site/
+https://www.davidwangcv.com/
